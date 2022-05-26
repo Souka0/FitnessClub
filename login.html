@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/loginCss.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <title>Fitness - Club Sportif Virtuel</title>
+        <link rel="icon" href="images/favicon.png">
+    </head>
+    <body>
+        <div class="login">
+            <div class="login__content">
+                <div class="login__img">
+                    <a href="index.html"><img src="images/img/logo.svg" alt=""></a>
+                </div>
+                <div class="login__forms">
+                    <form action="" class="login__registre" id="login-in">
+                        <h1 class="login__title">Sign In</h1>
+                        <div class="login__box">
+                            <i class='bx bx-user login__icon'></i>
+                            <input type="text" placeholder="Username" class="login__input">
+                        </div>
+                        <div class="login__box">
+                            <i class='bx bx-lock-alt login__icon' id="psswd" onclick="show()"></i>
+                            <input type="password" id="pswrd" placeholder="Password" class="login__input">
+                        </div>
+                        <a href="#" class="login__forgot">Forgot password?</a>
+                        <a href="#" class="login__button">Sign In</a>
+                        <div>
+                            <span class="login__account">Don't have an Account ?</span>
+                            <span class="login__signin" id="sign-up">Sign Up</span>
+                        </div>
+                    </form>
+                    <form action="" class="login__create none" id="login-up">
+                        <h1 class="login__title">Create Account</h1>
+                        <div class="login__box">
+                            <i class='bx bx-user login__icon'></i>
+                            <input type="text" placeholder="Username" class="login__input">
+                        </div>
+                        <div class="login__box">
+                            <i class='bx bx-at login__icon'></i>
+                            <input type="text" placeholder="Email" class="login__input">
+                        </div>
+                        <div class="login__box">
+                            <i class='bx bx-lock-alt login__icon' id="psswd" onclick="show()"></i>
+                            <input type="password" id="pswrd" placeholder="Password" class="login__input">
+                        </div>
+                        <a href="#" class="login__button">Sign Up</a>
+                        <div>
+                            <span class="login__account">Already have an Account ?</span>
+                            <span class="login__signup" id="sign-in">Sign In</span>
+                        </div>
+                        <div class="login__social">
+                            <a href="https://www.facebook.com/" class="login__social-icon"><i class='bx bxl-facebook' ></i></a>
+                            <a href="https://twitter.com/" class="login__social-icon"><i class='bx bxl-twitter' ></i></a>
+                            <a href="https://www.google.com/" class="login__social-icon"><i class='bx bxl-google' ></i></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-container about">
+                        <h4>Few Words About Aria</h4>
+                        <p class="white">We're passionate about delivering the best business growth services for companies just starting out as startups or industry players that have established their market position a long tima ago.</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Links</h4>
+                        <ul class="list-unstyled li-space-lg white">
+                            <li>
+                                <a class="white" href="#your-link">startupguide.com</a>
+                            </li>
+                            <li>
+                                <a class="white" href="terms-conditions.html">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a class="white" href="privacy-policy.html">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Tools</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li>
+                                <a class="white" href="#your-link">businessgrowth.com</a>
+                            </li>
+                            <li>
+                               <a class="white" href="#your-link">influencers.com</a>
+                            </li>
+                            <li class="media">
+                                <a class="white" href="#your-link">optimizer.net</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Partners</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li>
+                                <a class="white" href="#your-link">unicorns.com</a>
+                            </li>
+                            <li>
+                                <a class="white" href="#your-link">staffmanager.com</a>
+                            </li>
+                            <li>
+                                <a class="white" href="#your-link">association.gov</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <script src="js/loginJs.js"></script>
+    </body>
+</html>
